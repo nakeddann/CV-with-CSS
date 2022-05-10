@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: rgb(226, 215, 194);
+    color: rgb(71, 15, 15);
+
+    font-size: medium;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue
+}
+
+a:visited {
+    color: grey
+}
+
+.photo {
+    width: 300px;
+    border-radius:28px;
+    box-shadow: 1px 1px 20px rgb(71, 15, 15);
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.info p {
+    color: rgb(85, 62, 27);
+    margin: 8px;
+    font-weight: none;
+    /*letter-spacing: 0px;*/
+}
+
+.container {
+max-width: 800px;
+margin: auto;
+padding-top: 30px;
+}
+
+/*
+.social {
+background-color: rgb(194, 176, 117);
+padding: 5px;
+border: 2px solid rgb(148, 93, 30);
+margin: 15px;
+}
+*/
+
+/*
+.box-model > div {
+float: left;
+background-color: black;
+height: 200px;
+border: 4px solid red;
+width: 25%;
+box-sizing: border-box;
+}*/
+
+.bg-yellow {
+    background: #c5b999;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: rgb(77, 25, 25);
+margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2) {
+    color: rgb(77, 25, 25);
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+display: block;
+font-size: 14px;
+color: rgb(77, 25, 25);
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(141, 95, 42);
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.info {
+    display: flex;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.info-text {
+    margin-left: 40px;
+
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+.btn {
+    color: wheat;
+    padding: 15px 20px;
+    background: rgb(63, 20, 20);
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.6;
+}
+
+
+
+
+/* Position */
+
+/*.position {
+    position: relative;
+    border: 4px solid black;
+    margin-top: 40px;
+    padding: 20px;
+    height: 300px;
+}
+
+.box {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    background: hotpink
+} */
